@@ -1,0 +1,15 @@
+@import './initial.css';
+
+@import './elements/title.css';
+@import './elements/text.css';
+
+@import './elements/nav.css';
+@import './elements/socials.css';
+@import './elements/mobile-menu.css';
+@import './elements/card.css';
+
+@import './sections/header.css';
+@import './sections/hero.css';
+@import './sections/stack.css';
+@import './sections/projects.css';
+@import './sections/footer.css';

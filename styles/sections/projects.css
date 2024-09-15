@@ -1,0 +1,38 @@
+.projects {
+    padding-top: 50px;
+}
+
+.projects__list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    padding-top: 36px;
+}
+
+@media screen and (min-width: 800px) {
+    .projects {
+        padding-top: 200px;
+    }
+
+    .projects__title {
+        margin-bottom: 50px;
+    }
+
+    .projects__text {
+        margin-bottom: 100px;
+    }
+
+    .projects__list {
+        grid-template-columns: 1fr 1fr;
+        padding-top: 96px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .projects__list {
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-top: 96px;
+        row-gap: 62px;
+    }
+}

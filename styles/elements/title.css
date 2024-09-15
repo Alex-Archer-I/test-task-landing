@@ -1,0 +1,34 @@
+.title {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: var(--title-color);
+}
+
+.title--main {
+    font-size: var(--fs-38);
+    text-align: left;
+}
+
+.title--small {
+    font-size: var(--fs-32);
+}
+
+.title--card {
+    font-size: var(--fs-20);
+    color: #000000;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 850px) {
+    .title--main {
+        font-size: var(--fs-58);
+    }
+
+    .title--small {
+        font-size: var(--fs-48);
+    }
+
+    .title--card {
+        font-size: var(--fs-28);
+    }
+}

@@ -1,0 +1,19 @@
+.socials {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.socials--header path {
+    fill: var(--text-color);
+}
+
+.socials--footer path {
+    fill: var(--title-color);
+}
+
+@media screen and (min-width: 1250px) {
+    .socials {
+        gap: 20px;
+    }
+}

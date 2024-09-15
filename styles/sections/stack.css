@@ -1,0 +1,40 @@
+.stack {
+    padding-top: 20px;
+}
+
+.stack__list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.stack__icon {
+    width: 90px;
+    height: 90px;
+}
+
+@media screen and (min-width: 850px) {
+    .stack {
+        padding-top: 300px;
+    }
+
+    .stack__title {
+        margin-bottom: 50px;
+    }
+
+    .stack__text {
+        margin-bottom: 150px;
+    }
+
+    .stack__list {
+        gap: 90px;
+    }
+
+    .stack__icon {
+        width: 120px;
+        height: 120px;
+    }
+}

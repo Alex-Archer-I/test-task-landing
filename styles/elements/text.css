@@ -1,0 +1,70 @@
+.text {
+    font-family: "Poppins", system-ui;
+    color: var(--text-color);
+    font-size: var(--fs-20);
+    text-align: center;
+}
+
+.text--small {
+    font-size: var(--fs-18);
+}
+
+.text--card {
+    font-weight: 300;
+    text-align: left;
+}
+
+.text--stack {
+    font-size: var(--fs-14);
+    font-weight: 300;
+    text-align: left;
+}
+
+.text--stack-bold {
+    font-size: var(--fs-16);
+    font-weight: 500;
+}
+
+.text--link {
+    font-family: "DM Sans", system-ui;
+    font-weight: 500;
+    font-size: var(--fs-20);
+    text-decoration: none;
+}
+
+.text--link-small {
+    font-size: var(--fs-18);
+}
+
+.text--colored {
+    color: var(--title-color);
+}
+
+.text--gradient {
+    background: linear-gradient(to right, var(--gradient-color-blue), var(--gradient-color-pink));
+    background-size: 100%;
+    background-clip: text;
+    color: transparent;
+}
+
+.text--grey {
+    color: var(--text-color);
+}
+
+@media screen and (min-width: 850px) {
+    .text {
+        font-size: var(--fs-32);
+    }
+
+    .text--small {
+        font-size: var(--fs-18);
+    }
+
+    .text--stack {
+        font-size: var(--fs-14);
+    }
+    
+    .text--stack-bold {
+        font-size: var(--fs-16);
+    }
+}
